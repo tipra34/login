@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { BgButtonComponent } from './bg-button/bg-button.component';
 import { SysTimeComponent } from './sys-time/sys-time.component';
+import { LoginFormComponent } from './login-form/login-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BgButtonComponent,
-    SysTimeComponent
+    SysTimeComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
